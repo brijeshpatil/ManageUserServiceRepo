@@ -25,7 +25,7 @@ namespace WebApplication1
             return "Hello World";
         }
 
-        SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=D:\Brijesh\divya\ServiceExample\App_Data\Database.mdf;Integrated Security=True;User Instance=True");
+        SqlConnection con = new SqlConnection(@"Server=c4b25810-9270-4406-814a-a4b300a3519e.sqlserver.sequelizer.com;Database=dbc4b2581092704406814aa4b300a3519e;User ID=qcpblzjvqmtqizmw;Password=SLeUEYvg6rG37jdgBBTtdghbZHYUnw2sry2DZ34VRDfjvC3BzMjZkiZLCc46aJ2H;");
         SqlDataAdapter da;
         DataSet dt;
         SqlCommand cmd;
